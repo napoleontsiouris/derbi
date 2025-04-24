@@ -8,9 +8,8 @@ const Slider = () => {
                             <div className="slider_text ">
                                 <span>Get Started Today.</span>
                                 <h3><strong>Πολιτιστικός Σύλλογος<br/>"Δέρβη"</strong></h3>
-                                {/* <p>With so much to consume and such little time, coming up <br />
-                                    with relevant title ideas is essential</p> */}
-                                <a href="About.html" className="boxed-btn3">Learn More
+                                
+                                <a href="#" className="boxed-btn3">Learn More
                                 </a>
                             </div>
                         </div>
