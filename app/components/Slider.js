@@ -7,7 +7,7 @@ const Slider = () => {
                         <div className="col-lg-9">
                             <div className="slider_text ">
                                 <span>Get Started Today.</span>
-                                <h3><strong>Πολιτιστικός Σύλλογος<br/>"Δέρβη"</strong></h3>
+                                <h3><strong>Πολιτιστικός Σύλλογος<br/>&ldquo;Δέρβη&rdquo;</strong></h3>
                                 
                                 <a href="#" className="boxed-btn3">Learn More
                                 </a>
