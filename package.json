@@ -14,7 +14,9 @@
     "owl.carousel": "^2.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "swiper": "^11.2.6"  },
+    "swiper": "^11.2.6",
+    "critters": "^0.0.25"
+  },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
