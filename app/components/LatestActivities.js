@@ -15,7 +15,7 @@ const LatestActivities = () => {
                         <div className="activites_info">
                             <div className="section_title">
                                 <h3> <span>Το όραμα του Πολιτιστικού Συλλόγου</span> <br/>
-                                    "Δέρβη"</h3>
+                                &ldquo;Δέρβη&rdquo;</h3>
                             </div>
                             <p className="para_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
                                 eiusmod tempor incididunt  ut labore dolore magna aliqua.
