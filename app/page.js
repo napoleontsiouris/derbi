@@ -28,7 +28,6 @@ export default async function Home() {
     <Slider />
     <ResonArea />
     <LatestActivities />
-    {/* <PopularCauses /> */}
     <CounterArea />
     <News />
     
