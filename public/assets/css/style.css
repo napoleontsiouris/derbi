@@ -1541,7 +1541,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 28, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 33px;
+    font-size: 28px;
     margin-bottom: 20px;
   }
 }
@@ -3000,15 +3000,18 @@ h3 {
 @media (max-width: 767px) {
   /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
   .latest_activites_area .video_activite {
-    display: none !important;
+    /* display: none !important; */
+    position: relative;
+    height: 50vh;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
   .latest_activites_area .video_activite {
-    display: none !important;
+    /* display: none !important; */
   }
+
 }
 
 /* line 22, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
@@ -5674,6 +5677,7 @@ h6 {
   .blog_details {
     padding: 60px 30px 35px 35px;
   }
+  
 }
 
 /* line 537, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
@@ -6341,6 +6345,10 @@ h6 {
   opacity: .5;
 }
 
+ul#navigation {
+  margin-bottom: 0px;
+}
+
 @media (max-width: 991px) {
   /* line 1307, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
   .single-post-area .sidebar-widgets {
@@ -6561,6 +6569,30 @@ h6 {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
   }
+  .boxed-btn3 {
+    padding: 9px 14px;
+    font-size: 14px;
+  }
+  .counter_area .single_counter .icon i {
+    font-size: 40px;
+    color: #fff;
+  }
+  .counter_area .single_counter .events h3 {
+    font-size: 26px;
+  }
+  .counter_area .single_counter .events p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .single_counter {
+    margin-bottom: 30px;
+  }
+  
+  .counter_area .counter_bg {
+    padding: 43px 0 20px 0px;
+  }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -6600,6 +6632,7 @@ h6 {
     margin-bottom: 140px;
     margin-top: 20px;
   }
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6640,6 +6673,11 @@ h6 {
     padding: 15px;
     left: 10px;
     bottom: -140px;
+  }
+  .slider_text {
+    padding: 20px;
+    margin-left: 0px;
+    background: rgba(0, 0, 0, 0.541);
   }
 }
 
